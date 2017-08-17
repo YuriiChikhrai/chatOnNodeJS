@@ -1,0 +1,30 @@
+{
+  "name": "chatik",
+  "version": "1.0.0",
+  "description": "NodeJS chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "socket.io",
+    "express"
+  ],
+  "author": "Yurii Chikhrai",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^7.4.3",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.7",
+    "nunjucks": "^3.0.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.0",
+    "socket.io": "^2.0.3"
+  }
+}
