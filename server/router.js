@@ -28,7 +28,7 @@ module.exports = app => {
     app.use('/assets', express.static('./client/public'));
 
     app.get('/', checkAuth, (req, res) => {
-        res.render('index.html', { date: new Date() });
+        res.render('index.html', { username: req.user.username });
     });
 
     app.post('/login', async (req, res) => {
